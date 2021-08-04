@@ -35,7 +35,7 @@ const getActualSleepHours = () => {
   + getSleepHours('saturday') 
   + getSleepHours('sunday') 
   }
-
+ // You can call this function as too as short term(const getActualSleepHours = () => 8 + 7 + 6 + 5 + 4 + 3 + 2; )
 
 const getIdealSleepHours = () => {
   let idealHours = 6;
